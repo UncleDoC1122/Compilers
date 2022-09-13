@@ -1,0 +1,9 @@
+﻿int counter = 0;
+
+for (int iterator = 0; iterator < 10; iterator++) {
+    counter = counter + iterator;
+}
+
+for (int i = 100; i >= 10; i--) {
+    counter = counter + i;
+}

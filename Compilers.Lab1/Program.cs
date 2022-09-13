@@ -13,8 +13,8 @@ Console.WriteLine("================================================");
 Console.WriteLine("Variables: ");
 foreach (var variable in result.Item2)
 {
-	Console.WriteLine(variable);
+	Console.WriteLine(variable.ToString());
 }
 Console.WriteLine("================================================");
 
-Console.ReadKey();
+Console.Read();
