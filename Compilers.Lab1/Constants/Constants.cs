@@ -25,6 +25,7 @@ namespace Compilers.Lab1.Constants
 			{"<", (9, "less_operation")},
 			{"++", (10, "increment_operation")},
 			{"--", (11, "decrement_operation")},
+			{"%", (12, "modulo_operation")},
 		};
 		public static readonly string[] Keywords = { "class", "public", "private", "for", "return", "if", "else", "while" };
 
