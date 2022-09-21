@@ -15,6 +15,7 @@ while (test < 50) {
     if (test % 2 == 1) {
         secondCounter += test++;
     } else {
+        Console.WriteLine(test);
         test++;
     }
 }
