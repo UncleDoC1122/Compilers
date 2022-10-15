@@ -1,0 +1,8 @@
+int counter = 0;
+   
+while (counter < 11) {
+	while (counter < 11){
+	 counter = counter++;
+}
+   
+}
