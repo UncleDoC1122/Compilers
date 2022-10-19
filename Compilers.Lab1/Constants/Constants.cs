@@ -27,7 +27,18 @@ namespace Compilers.Lab1.Constants
 			{"--", (11, "decrement_operation")},
 			{"%", (12, "modulo_operation")},
 		};
-		public static readonly string[] Keywords = { "class", "public", "private", "for", "return", "if", "else", "while" };
+		public static readonly string[] Keywords = {
+			"class",
+			"public",
+			"private",
+			"for",
+			"return",
+			"if",
+			"else",
+			"while",
+			"do",
+			"switch",
+			"case"};
 
 		public static readonly string[] KeySymbols = { ".", ";", ",", "(", ")", "[", "]", "{", "}" };
 	}

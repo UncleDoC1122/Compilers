@@ -1,0 +1,43 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Models\" />
+    <None Remove="DataStructures\" />
+    <None Remove="DataStructures\SyntaxTree\" />
+    <None Remove="DataStructures\IdentifiersTable\" />
+    <None Remove="Constants\" />
+    <None Remove="Infrastructure\" />
+    <None Remove="DataStructures\SyntaxTree\IntermediateInstructions\" />
+    <None Remove="DataStructures\SyntaxTree\BooleanExpressions\" />
+    <None Remove="DataStructures\SyntaxTree\IndermediateExpressions\" />
+    <None Remove="Examples\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Models\" />
+    <Folder Include="DataStructures\" />
+    <Folder Include="DataStructures\SyntaxTree\" />
+    <Folder Include="DataStructures\IdentifiersTable\" />
+    <Folder Include="Constants\" />
+    <Folder Include="Infrastructure\" />
+    <Folder Include="DataStructures\SyntaxTree\IntermediateInstructions\" />
+    <Folder Include="DataStructures\SyntaxTree\BooleanExpressions\" />
+    <Folder Include="DataStructures\SyntaxTree\BooleanExpressions\" />
+    <Folder Include="DataStructures\SyntaxTree\IndermediateExpressions\" />
+    <Folder Include="Examples\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Compilers.Lab1\Compilers.Lab1.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="Examples\Example1.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+</Project>

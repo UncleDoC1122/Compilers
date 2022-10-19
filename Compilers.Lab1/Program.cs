@@ -18,3 +18,11 @@ foreach (var variable in result.Item2)
 Console.WriteLine("================================================");
 
 Console.Read();
+
+int b = 1;
+{
+	b = 2;
+	int a = 0;
+}
+b = 3;
+

@@ -1,5 +1,0 @@
-int counter = 0;
-
-do {
-    counter++;
-} while (counter < 100)
